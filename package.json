@@ -2,7 +2,11 @@
   "name": "weather-cli",
   "version": "1.0.0",
   "description": "CLI for getting weather",
-  "main": "index.js",
+  "type": "module",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/alidzen/weather-cli/issues"
   },
-  "homepage": "https://github.com/alidzen/weather-cli#readme"
+  "homepage": "https://github.com/alidzen/weather-cli#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
 }
