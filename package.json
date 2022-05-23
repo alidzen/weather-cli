@@ -1,26 +1,23 @@
 {
-	"name": "weather-cli",
-	"version": "1.0.0",
-	"description": "CLI for getting weather",
-	"main": "index.js",
-	"bin": "./index.js",
-	"scripts": {
-		"start": "node index.js",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"keywords": [
-		"cli",
-		"weather"
-	],
-	"author": "Anton Larichev",
-	"license": "ISC",
-	"homepage": "https://purpleschool.ru",
-	"repository": {
-		"type": "git",
-		"url": "https://purpleschool.ru"
-	},
-	"bugs": {
-		"url": "https://purpleschool.ru",
-		"email": "antonlarichev@gmail.com"
-	}
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "CLI for getting weather",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alidzen/weather-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Denis Golubtsov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alidzen/weather-cli/issues"
+  },
+  "homepage": "https://github.com/alidzen/weather-cli#readme"
 }
